@@ -22,6 +22,7 @@
             }
             return {
                 units: num % 10,
+                tens: Math.floor(num / 10) % 10,
                 hundereds: Math.floor(num / 100),
             }
         }
