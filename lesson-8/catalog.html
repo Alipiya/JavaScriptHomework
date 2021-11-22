@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.scss">
+</head>
+
+<body>
+    <header>
+        <div class="top">
+            <div class="container">
+                <div class="b"><a href="index.html"><img src="img/b.svg" alt="b"></a></div>
+                <div class="search"><img src="img/poisk.svg" alt="poisk"></div>
+                <div class="pay">
+                    <img class="cartIcon" src="img/pay.svg" alt="">
+                    <span>0</span>
+                </div>
+                <div class="basket hidden">
+                    <div class="basketRow basketHeader">
+                        <div>Название товара</div>
+                        <div>Количество</div>
+                        <div>Цена за шт.</div>
+                        <div>Итого</div>
+                    </div>
+                    <div class="basketTotal">
+                        Товаров в корзине на сумму:
+                        $<span class="basketTotalValue">0</span>
+                    </div>
+                </div>
+                <div class="cont"><a href="registration.html"><img src="img/contact.svg" alt="contact"></a>
+                </div>
+                <details>
+                    <summary><svg viewBox="0 0 24 24" id="ines">
+                            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" fill="#E8E8E8" fill-rule="evenodd">
+                            </path>
+                        </svg></summary>
+                    <div class="menu container">
+                        <h4 class="h4-menu">MENU</h4>
+                        <h4 class="h4">MAN</h4>
+                        <a class="p-menu" href="catalog.html">Accessories</a><br>
+                        <a class="p-menu" href="catalog.html">Bags</a><br>
+                        <a class="p-menu" href="catalog.html">Denim</a><br>
+                        <a class="p-menu" href="catalog.html">T-Shirts</a><br>
+                        <h4 class="h4">WOMAN</h4>
+                        <a class="p-menu" href="catalog.html">Accessories</a><br>
+                        <a class="p-menu" href="catalog.html">Jackets & Coats</a><br>
+                        <a class="p-menu" href="catalog.html">Polos</a><br>
+                        <a class="p-menu" href="catalog.html">T-Shirts</a><br>
+                        <a class="p-menu" href="catalog.html">Shirts</a><br>
+                        <h4 class="h4">KIDS</h4>
+                        <a class="p-menu" href="catalog.html">Accessories</a><br>
+                        <a class="p-menu" href="catalog.html">Jackets & Coats</a><br>
+                        <a class="p-menu" href="catalog.html">Polos</a><br>
+                        <a class="p-menu" href="catalog.html">T-Shirts</a><br>
+                        <a class="p-menu" href="catalog.html">Shirts</a><br>
+                        <a class="p-menu" href="catalog.html">Bags</a><br>
+                    </div>
+                </details>
+            </div>
+        </div>
+        <div class="top-catalog">
+            <div class="container">
+                <div class="bread">
+                    <div class="arrivals">
+                        <p class="p-arrivals">NEW ARRIVALS</p>
+                    </div>
+                    <nav aria-label="breadcrumb">
+                        <ul class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html">HOME</a></li>
+                            <li class="breadcrumb-item"><a href="catalog.html">MAN</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">NEW ARRIVALS</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="filters">
+            <div class="container">
+                <div class="filtersLeft">
+                    <span class="filterLabel">FILTER</span>
+                    <img class="filterIcon" src="img/filter.svg" alt="">
+                    <div class="filterPopup hidden">
+                        <nav class="filterCategory">
+                            <div class="filterCategoryHeader">CATEGORY</div>
+                            <div class="hidden">
+                                <a href="#">Accessories</a>
+                                <a href="#">Bags</a>
+                                <a href="#">Denim</a>
+                                <a href="#">Hoodies & Sweatshirts</a>
+                                <a href="#">Jackets & Coats</a>
+                                <a href="#">Polos</a>
+                                <a href="#">Shirts</a>
+                                <a href="#">Shoes</a>
+                                <a href="#">Sweaters & Knits</a>
+                                <a href="#">T-Shirts</a>
+                                <a href="#">Tanks</a>
+                            </div>
+                        </nav>
+                        <nav class="filterCategory">
+                            <div class="filterCategoryHeader">BRAND</div>
+                            <div class="hidden">
+                                <a href="#">Accessories</a>
+                                <a href="#">Bags</a>
+                                <a href="#">Denim</a>
+                                <a href="#">Hoodies & Sweatshirts</a>
+                                <a href="#">Jackets & Coats</a>
+                                <a href="#">Polos</a>
+                                <a href="#">Shirts</a>
+                                <a href="#">Shoes</a>
+                                <a href="#">Sweaters & Knits</a>
+                                <a href="#">T-Shirts</a>
+                                <a href="#">Tanks</a>
+                            </div>
+                        </nav>
+                        <nav class="filterCategory">
+                            <div class="filterCategoryHeader">DESIGNER</div>
+                            <div class="hidden">
+                                <a href="#">Accessories</a>
+                                <a href="#">Bags</a>
+                                <a href="#">Denim</a>
+                                <a href="#">Hoodies & Sweatshirts</a>
+                                <a href="#">Jackets & Coats</a>
+                                <a href="#">Polos</a>
+                                <a href="#">Shirts</a>
+                                <a href="#">Shoes</a>
+                                <a href="#">Sweaters & Knits</a>
+                                <a href="#">T-Shirts</a>
+                                <a href="#">Tanks</a>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                <div class="filtersRight">
+                    <div class="filterTrending">
+                        TRENDING NOW
+                        <img src="img/filterArrow.svg" alt="">
+                    </div>
+                    <div class="filterSize">
+                        <div class="filterSizeWrap">
+                            SIZE
+                            <img src="img/filterArrow.svg" alt="">
+                        </div>
+                        <div class="filterSizes hidden">
+                            <div>
+                                <input type="checkbox"> XS
+                            </div>
+                            <div>
+                                <input type="checkbox"> S
+                            </div>
+                            <div>
+                                <input type="checkbox"> M
+                            </div>
+                            <div>
+                                <input type="checkbox"> L
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filterPrice">
+                        PRICE
+                        <img src="img/filterArrow.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="featured container">
+        <h2 class="featuredHeader">Fetured Items</h2>
+        <div class="featuredTitle">Shop for items based on what we featured in this week</div>
+        <div class="featuredItems">
+        </div>
+
+        <div class="pagination">
+            <a href="#">
+                <img src="img/chevronLeft.svg" alt="">
+            </a>
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">6.....20</a>
+            <a href="#">
+                <img src="img/chevronRight.svg" alt="">
+            </a>
+        </div>
+    </div>
+    <footer>
+        <div class="footer1">
+            <div class="container">
+                <div class="centr">
+                    <div class="super-block"><img class="img-foot-1" src="img/free-delivery.svg" alt="free-delivery">
+                        <h4 class="foot-1-h4">Free Delivery</h4>
+                        <p class="foot-1-p">Worldwide delivery on all. Authorit tively morph next-generation innov tion
+                            with
+                            extensive
+                            models.</p>
+                    </div>
+                    <div class="super-block"><img class="img-foot-1" src="img/sales.svg" alt="sales">
+                        <h4 class="foot-1-h4">Sales & discounts</h4>
+                        <p class="foot-1-p">Worldwide delivery on all. Authorit tively morph next-generation innov tion
+                            with
+                            extensive
+                            models.</p>
+                    </div>
+                    <div class="super-block"><img class="img-foot-1" src="img/quality.svg" alt="quality">
+                        <h4 class="foot-1-h4">Quality assurance</h4>
+                        <p class="foot-1-p">Worldwide delivery on all. Authorit tively morph next-generation innov tion
+                            with
+                            extensive
+                            models.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer2">
+            <div class="container">
+                <div class="subscribe">
+                    <figure class="avtor"> <img src="img/avtor.svg" alt="avtor">
+                        <p class="vestibul"> “Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus
+                            condimentum“</p>
+                    </figure>
+                    <div class="form">
+                        <h4 style="font-family: Lato, Helvetica, sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 40.13px;
+                text-align: center;
+                color: #222224;">SUBSCRIBE<br>
+                            <span style="font-family: Lato, Helvetica, sans-serif;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 24px;
+                    line-height: 30.1px;
+                    text-align: center;
+                    color: #222224;">FOR OUR NEWLETTER AND PROMOTION</span>
+                        </h4>
+                        <form class="input-group">
+                            <input type="email" class="form-control" placeholder="Enter Your Email">
+                            <button class="button">Subscribe</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="prava">
+            <div class="container">
+                <div class="centr">
+                    <div class="txt">© 2021 Brand All Rights Reserved.</div>
+                    <div class="social">
+                        <a href="https://www.facebook.com" target="_blank"><img class="ssilka" src="img/facebook.svg"
+                                alt="facebook"></a>
+                        <a href="https://www.instagram.com/" target="_blank"><img class="ssilka" src="img/instagram.svg"
+                                alt="instagram"></a>
+                        <a href="https://vk.com/" target="_blank"><img class="ssilka" src="img/picasso.svg"
+                                alt="picasso"></a>
+                        <a href="https://twitter.com/" target="_blank"><img class="ssilka" src="img/twitter.svg"
+                                alt="twitter"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/basket/ProductDTO.js"></script>
+    <script src="scripts/basket/products.js"></script>
+    <script src="scripts/basket/productsCards.js"></script>
+    <script src="scripts/basket/basket.js"></script>
+</body>
+
+</html>
